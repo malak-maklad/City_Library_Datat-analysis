@@ -1,4 +1,4 @@
-# City_Library_Datat-analysis
+# City_Library_Data-analysis
 Exploratory data analysis of City Library borrowing data using Python, Pandas, and Matplotlib.
 # 📚 Library Data Analysis
 
