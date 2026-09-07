@@ -1,5 +1,7 @@
 # City_Library_Data-analysis
+
 Exploratory data analysis of City Library borrowing data using Python, Pandas, and Matplotlib.
+
 # 📚 Library Data Analysis
 
 ## 📌 Overview
@@ -53,13 +55,14 @@ The tables were combined to create a dataset suitable for analysis.
 Before performing the analysis, the data was prepared through several steps:
 
 * Checked missing values
-* Checked duplicated records
+* Checked and removed duplicated records
 * Converted columns to appropriate data types
 * Converted date columns to `datetime`
 * Standardized text values
 * Checked data inconsistencies
 * Investigated date-related inconsistencies
 * Reviewed the results of merging the datasets
+* Kept missing `grade` values as `NULL` instead of filling them with the median, since `grade` is a categorical variable
 
 Some data inconsistencies were identified but could not be reliably corrected due to insufficient information in the original data.
 
@@ -148,7 +151,7 @@ Run the cells from top to bottom to reproduce the analysis.
 
 ## 👩‍💻 Author
 
-**Malak Makld**
+**Malak Maklad**
 
 Artificial Intelligence Student
 Mansoura University
